@@ -8,8 +8,8 @@
 # vs code
 .vscode
 .npm
-package-lock.json
-package.json
+/package-lock.json
+/package.json
 
 # project
 /css/styles.css.map
