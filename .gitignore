@@ -13,5 +13,8 @@
 # project
 /css/styles.css.map
 .prepros
+
+
+#package
 package-lock.json
 package.json
