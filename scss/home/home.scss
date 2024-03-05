@@ -15,6 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     button {
         width: 121.62px;
         height: 40.04px;
@@ -24,7 +25,7 @@
         font-size: 15px;
     }
     h1 {
-        font-family: ProximaNovaThin;
+      font-family: ProximaNovaEBld;
         font-size: 60px;
     }
     p {
@@ -50,18 +51,20 @@
       width: 236px;
       background-color: green;
       h1 {
-        font-family: ProximaNovaThin;
+        font-family: ProximaNovaExCond;
         font-size: 60px;
         color: $site-white;
       }
       h2 {
-        font-family: ProximaNovaThin;
+        font-family: ProximaNovaExCond;
         font-size: 30px;
         color: $site-white;
       }
       button {
         width: 133px;
         height: 40px;
+        font-family: GillSansReg;
+        font-size: 15px;
         background-color: $site-blue;
         color: $site-white;
         border: none;
@@ -75,7 +78,7 @@
     width: $home-content-width;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-family: ProximaNovaThin;
+    font-family: ProximaNovaExCond;
     font-size: 30px;
   }
   .form {
@@ -210,7 +213,7 @@
     }
     .form {
         width: 100%;
-        background-color: orange;
+        // background-color: orange;
         justify-content: center;
         margin-left: 0;
             margin-right: 0;

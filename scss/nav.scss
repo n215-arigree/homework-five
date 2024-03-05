@@ -17,7 +17,7 @@ nav {
     height: 20px;
     font-size: 15px;
     text-decoration: none;
-    color: $site-white;
+    color: $site-black;
     margin: 10px;
     border-right: 1px solid $site-blue;
     padding-right: 10px;
@@ -36,6 +36,7 @@ nav {
     height: 42px;
     text-align: center;
     display: flex;
+    color: $site-black;
     // justify-content: center;
     // align-items: center;
     

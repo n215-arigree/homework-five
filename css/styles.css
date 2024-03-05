@@ -29,7 +29,7 @@ nav a {
   height: 20px;
   font-size: 15px;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   margin: 10px;
   border-right: 1px solid #79ADDC;
   padding-right: 10px;
@@ -48,6 +48,7 @@ nav .links {
   height: 42px;
   text-align: center;
   display: flex;
+  color: #000000;
 }
 
 @media all and (max-width: 920px) {
@@ -80,7 +81,7 @@ nav .links {
   font-size: 15px;
 }
 .home .hero h1 {
-  font-family: ProximaNovaThin;
+  font-family: ProximaNovaEBld;
   font-size: 60px;
 }
 .home .hero p {
@@ -107,18 +108,20 @@ nav .links {
   background-color: green;
 }
 .home .specials .box h1 {
-  font-family: ProximaNovaThin;
+  font-family: ProximaNovaExCond;
   font-size: 60px;
   color: #ffffff;
 }
 .home .specials .box h2 {
-  font-family: ProximaNovaThin;
+  font-family: ProximaNovaExCond;
   font-size: 30px;
   color: #ffffff;
 }
 .home .specials .box button {
   width: 133px;
   height: 40px;
+  font-family: GillSansReg;
+  font-size: 15px;
   background-color: #79ADDC;
   color: #ffffff;
   border: none;
@@ -130,7 +133,7 @@ nav .links {
   width: 818px;
   margin: 0 auto;
   margin-bottom: 30px;
-  font-family: ProximaNovaThin;
+  font-family: ProximaNovaExCond;
   font-size: 30px;
 }
 .home .form {
@@ -246,7 +249,6 @@ nav .links {
   }
   .home .form {
     width: 100%;
-    background-color: orange;
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
@@ -285,6 +287,14 @@ nav .links {
   src: url(../fonts/Proxima-Nova-ExCn-Reg.otf);
 }
 @font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/Proxima_Nova_Reg.ttf);
+}
+@font-face {
+  font-family: ProximaNovaEBld;
+  src: url(../fonts/proxima-nova-12.ttf);
+}
+@font-face {
   font-family: ProximaNovaThin;
   src: url(../fonts/Proxima-Nova-Thin.otf);
 }
@@ -304,15 +314,33 @@ nav .links {
   margin: 0 auto;
   margin-top: 90px;
   width: 980px;
-  height: 1008px;
+  margin-bottom: 100px;
+}
+.about .container {
+  font-family: GillSansReg;
+  padding-bottom: 40px;
+}
+.about .container hr {
+  border: 1px solid black;
+  width: 150px;
+  margin-bottom: 36px;
+}
+.about .container h1 {
+  font-family: ProximaNovaExCond;
+  font-size: 60px;
+}
+.about h2 {
+  font-family: ProximaNovaExCond;
+  font-size: 40px;
 }
 .about hr {
   border: 1px solid black;
-  width: 171px;
+  width: 220px;
   margin-bottom: 36px;
 }
 .about .quotes {
   display: flex;
+  font-family: GillSansI;
   margin-top: 37px;
   width: 722px;
   height: 150px;
@@ -322,11 +350,55 @@ nav .links {
   height: 150px;
   background-color: orange;
   margin-right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about .quotes p {
   width: 462px;
 }
 
+@media all and (max-width: 750px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
+@media all and (max-width: 990px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    width: 100%;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
 header {
   width: 980px;
   height: 200px;
@@ -380,23 +452,6 @@ footer .footContent .icons {
 footer .footContent .icons i {
   width: 22.26px;
   height: 22.26px;
-}
-
-@media all and (max-width: 920px) {
-  body {
-    position: relative;
-  }
-  .app {
-    position: relative;
-  }
-  .home {
-    padding-bottom: 100px;
-  }
-  footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
