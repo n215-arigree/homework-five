@@ -8,9 +8,10 @@
 # vs code
 .vscode
 .npm
-.package-lock.json
-.package.json
+
 
 # project
 /css/styles.css.map
 .prepros
+.package-lock.json
+.package.json
