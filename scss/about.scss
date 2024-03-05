@@ -1,0 +1,30 @@
+.about {
+    margin: 0 auto;
+    margin-top: 90px;
+    width: $content-width;
+    height: 1008px;
+    h1 {
+        
+    }
+    hr {
+        border: 1px solid black;
+        width: 171px;
+        margin-bottom: 36px;
+    }
+
+    .quotes {
+        display: flex;
+        
+        margin-top: 37px;
+        width: 722px;
+        height: 150px;
+        .photo {
+            width: 260px;
+            height: 150px;
+            background-color: orange;
+            margin-right: 20px;
+        }
+        p {
+            width: 462px;}
+    }
+}
